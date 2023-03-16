@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+#container{
+    width: 50%;
+    height: 110vh;
+    clip-path: polygon(0 0, 0% 100%, 94% 51%);
+     background-color: rgb(63, 165, 109);
+
+}
+#Time{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Tilt prism",Arial, Helvetica;
+    font-size: 36px;
+}
+#Date{
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Tilt prism",cursive;
+    font-size: 36px;
+}
+#Day{
+    position: absolute;
+    left: 10px;
+    top: 150px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Tilt prism",cursive;
+    font-size: 36px;
+}
+#greet{
+    width: 150px;
+    height: 80px;
+    background-color: teal;
+    position: absolute;
+    bottom: 80px;
+    left: 220px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#close{
+    color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#textgreet{
+    color: white;
+    font-size: 180px;
+}
